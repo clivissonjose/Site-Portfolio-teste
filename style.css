@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: "Opens Sans", sans-serif;
+  background-color: #fefefe;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family:"Montserrat", sans-serif;
+  font-size: 38px;
+  line-height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2.azul {
+  
+  color: blue;
+
+}
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px;
+}
+
+button {
+  height: 56px;
+  border-radius: 16px;
+  background-color: blue;
+  border-width: 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 0.16rem;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 130px;
+  background-color: #d9d9d9;
+  margin-top: 15px;
+}
+
+.root-container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.content-container{
+  display: flex;
+  width: 1216px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.section-hero {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 100vw;
+   height: 100vh;
+   background-color: #fefefe;
+
+}
+
+.barra-navegacao {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 1216px;
+  height: 72px;
+  margin-top: 25px;
+}
+.titulo-navegacao {
+  color: blue;
+  font-size:24px;
+  letter-spacing: -0,015rem;
+  font-weight: bold
+}
+
+.links-navegacao {
+   color: rgb(0, 0, 0);
+   font-size: 16px;
+   letter-spacing: -0.015rem;
+   margin-right: 12px;
+   cursor: pointer;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1216px;
+  height: 594px ;
+  padding-top: 20px;
+}
+
+.hero-info-title {
+  font-size: 46px;
+  font-weight: bold;
+  margin: 0px;
+  
+} 
+
+.hero-info-subtitle {
+  font-size: 20px;
+  line-height: 20px;
+  max-width: 62%;
+  margin-top: 20px;
+}
+.hero-info-imagem {
+    width: 500px;
+    height: 560px;
+    border-radius: 40px;
+    border-color: blue;
+    border-width: 4px;
+    border-style: solid;
+  }
+
+.imagens-icons {
+   display: flex;
+   flex-direction: row;
+   width: 20%;
+   align-items: baseline;
+   justify-content: space-between;
+   margin-top: 16px;
+   cursor: pointer;
+}
+.section-habilidades {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100vw;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+}
+.habilidades-card-container {
+   display: grid;
+   width: 100%;
+   column-gap: 40px;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto;
+   justify-content: center;
+   margin-top: 12px;
+
+}
+.habilidades-card {
+   width: 330px;
+   height: 690px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   border-width: 5px;
+   border-color: #202bc6be;
+   border-radius: 12px;
+   border-style: solid;
+   padding: 12px;
+}
+
+.habilidades-card-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: blue;
+  border-style: solid;
+  width: 80px;
+  height: 80px;
+
+}
+
+.habilidades-card-icons-img {
+  width: 40px;
+  height: 40px;
+
+}
+
+.card {
+  font-size: 16px;
+  margin: 0px;
+  text-align: center;
+}
+
+.habilidades-listas {
+  width: 85%;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500px;
+}
+
+.section-portfolio {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.section-portfolio-grid {
+   display: grid;
+   width: 100%;
+   column-gap: 40px;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto;
+   align-content: center;
+   justify-content: center;
+   margin-top: 12px;
+
+}
+
+.section-portfolio-card {
+  width: 384px;
+  height: 300px;
+  border-width: 4px;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-portfolio-card-img {
+  width: 250px;
+  height: 160px;
+  margin-bottom: 15px;
+}
+
+.section-portfolio-icons {
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 10px;
+
+}
+
+.section-experiences {
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.section-experiences-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 800px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 16px;
+  border-width: 10px;
+  margin-top: 24px;
+}
+
+.section-experiences-card-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  margin-left: 10px;
+  margin-top: 20px;
+
+}
+
+.section-experiences-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 16px;
+  
+}
+
+.section-experiences-card-title {
+   font-family: "Montserrat", sans-serif;
+   font-size: 18px;
+   font-weight: 500px;
+   margin-top: 15px;
+   margin: 0px;
+   
+}
+
+.section-experiences-card-subtitle {
+   font-family: "Montserrat", sans-serif;
+   font-size: 18px;
+   margin:5px 0px 0px 0px;
+}
+
+.section-experiences-card-subsubtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 8px 0px 0px 0px;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.section-contact-item-img {
+   width: 24px;
+   height: 24px;
+   margin-right: 7px;
+}
+
+.footer-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   width: 1216px;
+   height: 100%;
+}
+
+.footer-icons {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   width: 40%;
+   cursor: pointer;
+}
