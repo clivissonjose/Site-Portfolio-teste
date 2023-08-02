@@ -15,11 +15,11 @@
         <div class="barra-navegacao">
           <h1 class="titulo-navegacao">Clívisson Barbosa </h1>
           <div>
-             <a class="links-navegacao">Habilidades</a>
-             <a class="links-navegacao">Portfólio</a>
-             <a class="links-navegacao">Experiência</a>
+             <a onclick="onclickScrollTo('section-habilidades')" class="links-navegacao">Habilidades</a>
+             <a onclick="onclickScrollTo('section-portfolio')" class="links-navegacao">Portfólio</a>
+             <a onclick="onclickScrollTo('section-experiences')" class="links-navegacao">Experiência</a>
           </div>
-             <button>CONTATO</button>
+             <button onclick="onclickScrollTo('section-contact')">CONTATO</button>
         </div> 
       
         <div class="hero-info">
@@ -27,7 +27,7 @@
                <h1 class="hero-info-title">Olá muito prazer! <br> eu sou Clívisson Barbosa</h1>
                <p class="hero-info-subtitle"> Programador desde 2022 com foco no FrontEnd,
                    usando HTML/CSS, Javascript  e react JS.</p>
-                   <button>ENTRE EM CONTATO</button>
+                   <button onclick="onclickScrollTo('section-contact')">ENTRE EM CONTATO</button>
                    <div class="imagens-icons">
                      <a>
                         <img class="hero-info-icons-img" src="icons/Git-hub.png" alt="Git-hub">
@@ -47,7 +47,7 @@
         </div>
       </section>
       
-      <section class="section-habilidades">
+      <section class="section-habilidades"  id="section-habilidades">
       
          
             <h2>habilidades que </h2>
@@ -125,7 +125,7 @@
       
       </section>
       
-      <section class="section-portfolio">
+      <section class="section-portfolio" id="section-portfolio">
          
           <h2>Portfólio </h2>
           <h2 class="azul">de Projetos</h2>
@@ -181,7 +181,7 @@
         
       </section>
 
-      <section class="section-experiences">
+      <section class="section-experiences" id="section-experiences">
           
         <h2> 
            Experiências
@@ -229,7 +229,7 @@
     </div>
       </section>
 
-      <section class="section-contact">
+      <section class="section-contact" id="section-contact">
         <h2>Como posso</h2>
         <h2 class="azul"> te ajudar?</h2>
         <p>
