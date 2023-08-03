@@ -131,7 +131,7 @@ footer {
 }
 .hero-info-imagem {
     width: 500px;
-    height: 560px;
+    height: 100%;
     border-radius: 40px;
     border-color: blue;
     border-width: 4px;
