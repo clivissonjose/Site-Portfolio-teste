@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+.obs {
+  font-weight: bold;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
 }
@@ -343,6 +347,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
   
 }
 
