@@ -1,190 +1,207 @@
-   
 @media only screen and (max-device-width: 450px) {
 
+  body {
   
-body {
-
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow-x: hidden;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 156px;
-  background-color: #d9d9d9;
-  margin-top: 15px;
-}
-
-.root-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
- }
-  .content-container{
-    width: 90vw;
-    max-width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
-  }
-
-.links{
-    display: none;
+    margin: 0px;
+   
   }
   
-.section-hero {
-  width: 100%;
-  height: auto;
-}
-
-  .barra-navegacao {
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 156px;
+    background-color: #d9d9d9;
+    margin-top: 15px;
+  }
+  
+  .root-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+    .content-container{
+      width: 90vw;
+      max-width: 90vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+    }
+  
+  .links{
+      display: none;
+    }
+    
+  .section-hero {
+    width: 100%;
+    height: auto;
+  }
+  
+    .barra-navegacao {
+      width: 100%;
+      margin-top: 24px;
+    }
+    
+    .titulo-navegacao {
+      color: blue;
+      font-size:16px;
+      letter-spacing: -0.015rem;
+      font-weight: bold
+    }
+    .hero-info {
+
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      
+    }
+
+    .div-hero-info {
+      width: 90%;
+    }
+  
+    .hero-info-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-top: 15px;
+      margin-left: 50px;
+      font-size: 26px;
+     
+    } 
+
+    .hero-info-subtitle {
+      margin-left: 50px;
+      width: 100%;
+    }
+  
+    .hero-info-imagem {
+      width: 40vw;
+      margin-top: 0px;
+      height: 20vh;
+    }
+  
+    .imagens-icons {
+      display: flex;
+      flex-direction: row;
+      width: 65%;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-top: 16px;
+      margin-left: 50px;
+      cursor: pointer;
+   }
+
+   .button {
+    margin-left: 50px;
+   }
+  
+    .section-habilidades {
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      width: 330px;
+      padding-top: 64px;
+      padding-bottom: 64px;
+    
+    }
+    .habilidades-card {
+      width: 300px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+     
+   }
+  
+   .habilidades-card-container {
+  
+    row-gap: 40px;
+    grid-template-columns: auto ;
+    width: 90%;
+    margin-top: 12px;
+    margin-left: 0px;
+  
+  }
+  
+  .section-portfolio {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .section-portfolio-card {
+    width: 310px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-portfolio-grid {
+    row-gap: 40px;
+    grid-template-columns: auto;
+    margin-top: 24px;
+  
+  }
+  
+  .section-portfolio-card-img {
+    width: 80%;
+    height: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .section-experiences {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    width: 100%;
+  }
+  
+  .section-experiences-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 150px;
     margin-top: 24px;
   }
   
-  .titulo-navegacao {
-    color: blue;
-    font-size:16px;
-    letter-spacing: -0,015rem;
-    font-weight: bold
+  
+  .section-experiences-card-subtitle{
+  
+    font-size: 10px;
+  
   }
-  .hero-info {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
+  
+  .footer-container {
     width: 100%;
-    
-  }
-
-  .hero-info-title {
-    margin-top: 15px;
-    font-size: 26px;
-   
-  } 
-
-  .hero-info-imagem {
-    width: 40vw;
-    margin-top: 0px;
-    height: 20vh;
-  }
-
-  .imagens-icons {
-    display: flex;
-    flex-direction: row;
-    width: 65%;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-top: 16px;
-    cursor: pointer;
- }
-
-  .section-habilidades {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    width: 330px;
-    padding-top: 64px;
-    padding-bottom: 64px;
   
   }
-  .habilidades-card {
-    width: 300px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-   
- }
- .habilidades-card-container {
-
-  row-gap: 40px;
-  grid-template-columns: auto ;
-  width: 90%;
-  margin-top: 12px;
-  margin-left: 0px;
-
-}
-
-
-.section-portfolio {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.section-portfolio-card {
-  width: 310px;
-  height: 300px;
   
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.section-portfolio-grid {
-  row-gap: 40px;
-  grid-template-columns: auto;
-  margin-top: 24px;
-
-}
-
-.section-portfolio-card-img {
-  width: 80%;
-  height: 50%;
-  margin-bottom: 15px;
-}
-
-.section-experiences {
-  display: flex;
-  flex-direction: column ;
-  align-items: center;
-  justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 80px;
-  width: 100%;
-}
-
-.section-experiences-card {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-  height: 150px;
-  margin-top: 24px;
-}
-
-
-.section-experiences-card-subtitle{
-
-  font-size: 10px;
-
-}
-
-
-
-.footer-container {
-  width: 100%;
-
-}
-
-}
+  }

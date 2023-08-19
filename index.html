@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Clívisson barbosa</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mobile.css">
@@ -24,11 +24,11 @@
         </div> 
       
         <div class="hero-info">
-            <div>
+            <div class="div-hero-info">
                <h1 class="hero-info-title">Olá muito prazer! <br> eu sou Clívisson Barbosa</h1>
                <p class="hero-info-subtitle"> Programador desde 2022 com foco no FrontEnd,
                    usando HTML/CSS, Javascript  e react JS.</p>
-                   <button onclick="onclickScrollTo('section-contact')">ENTRE EM CONTATO</button>
+                   <button class="button" onclick="onclickScrollTo('section-contact')">ENTRE EM CONTATO</button>
                    <div class="imagens-icons">
                      <a>
                         <img onclick="onclicklink('https://github.com/clivissonjose')" class="hero-info-icons-img" src="icons/Git-hub.png" alt="Git-hub">
@@ -140,12 +140,14 @@
               <h5>Super Market List</h5>
               <p class="card"> Aplicação em react.js com express e MongoDB</p>
               <div class="section-portfolio-icons">
-                <a  href="">
-                 <img src="icons/link.png" 
+                <a>
+                 <img onclick="onclicklink('https://github.com/clivissonjose')"
+                  src="icons/link.png" 
                       alt="Link do projeto">
                 </a>
-                <a href="">
-                   <img src="icons/Git-Hub.png" alt="GitHub do Projeto">
+                <a>
+                   <img onclick="onclicklink('https://github.com/clivissonjose')"
+                   src="icons/Git-Hub.png" alt="GitHub do Projeto">
                 </a>
                </div>
 
@@ -155,11 +157,14 @@
               <h5>Book Club</h5>
               <p class="card"> Aplicação em React js e express + sequelize</p>
               <div class="section-portfolio-icons">
-                <a href="">
-                  <img src="icons/link.png" alt="Link do Projeto">
+                <a>
+                  <img onclick="onclicklink('https://github.com/clivissonjose')" 
+                   src="icons/link.png" alt="Link do Projeto">
                 </a>
-                <a href="">
-                  <img src="icons/Git-Hub.png" alt="GitHub do projeto">
+                <a>
+                  <img 
+                   onclick="onclicklink('https://github.com/clivissonjose')"
+                   src="icons/Git-Hub.png" alt="GitHub do projeto">
                 </a>
               </div>
         
@@ -169,11 +174,15 @@
               <h5>Book club</h5>
               <p class="card">Aplicação em React.js e express com sequelize</p>
               <div class="section-portfolio-icons">
-                <a href="">
-                  <img  src="icons/link.png" alt="Link do projeto">
+                <a>
+                  <img 
+                   onclick="onclicklink('https://github.com/clivissonjose')"
+                   src="icons/link.png" alt="Link do projeto">
                 </a>
-                <a href="">
-                  <img src="icons/Git-Hub.png" alt="GitHub do projeto">
+                <a>
+                  <img 
+                   onclick="onclicklink('https://github.com/clivissonjose')"
+                  src="icons/Git-Hub.png" alt="GitHub do projeto">
                 </a>
               </div>
             </div>
