@@ -58,19 +58,19 @@
       color: blue;
       font-size:16px;
       letter-spacing: -0.015rem;
-      font-weight: bold
+      font-weight: bold;
     }
     .hero-info {
 
       flex-direction: column-reverse;
       align-items: center;
       justify-content: center;
-      width: 100%;
+      width: 90%;
       
     }
 
     .div-hero-info {
-      width: 90%;
+      width: 100%;
     }
   
     .hero-info-title {
@@ -86,8 +86,11 @@
     } 
 
     .hero-info-subtitle {
-      margin-left: 50px;
       width: 100%;
+      line-height: 25px;
+      margin-left: 50px;
+     
+      
     }
   
     .hero-info-imagem {
@@ -105,6 +108,11 @@
       margin-top: 16px;
       margin-left: 50px;
       cursor: pointer;
+   }
+
+   .hero-info-icons-img {
+    width: 45px;
+    height: 45px;
    }
 
    .button {
