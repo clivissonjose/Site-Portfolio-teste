@@ -7,6 +7,10 @@ the goal is just to use everything i am learning into the site.
 
 <img src="https://github.com/clivissonjose/Site-Portfolio-teste/blob/main/preview.png" height="500"/>
 
+## Live link
+
+ https://clivissonjose.github.io/Site-Portfolio-teste/
+
 ## Main concepts applied
 
  - Flexbox
